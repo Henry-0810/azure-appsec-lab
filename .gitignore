@@ -1,0 +1,72 @@
+# Terraform
+
+.terraform/
+.terraform.lock.hcl
+
+# Terraform State (NEVER COMMIT)
+
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform Variables
+
+*.tfvars
+*.tfvars.json
+
+# Override Files
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform Plans
+
+*.tfplan
+*.plan
+
+# Environment Files
+
+.env
+.env.*
+
+# VS Code
+
+.vscode/
+
+# Dev Container Local Cache
+
+.devcontainer/local.env
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Azure CLI
+
+.azure/
+
+# Python (future tooling)
+
+**pycache**/
+*.pyc
+.venv/
+venv/
+
+# Security Scanners
+
+.checkov.cache/
+.trivycache/
+
+# Logs
+
+*.log
+
+# Sensitive Outputs
+
+secrets.json
+credentials.json
+terraform-output.json
