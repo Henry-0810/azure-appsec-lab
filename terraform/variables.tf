@@ -1,7 +1,9 @@
 variable "resource_group_name" {
-  type = string
+  type    = string
+  default = "rg-azure-appsec-lab"
 }
 
 variable "location" {
-  type = string
+  type    = string
+  default = "westcentralus"
 }
